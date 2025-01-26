@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+
+.input-1,.input-2{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 0.5rem;
+}

@@ -1,0 +1,18 @@
+<p>count-letters works!</p>
+
+<div class="main">
+    <form action="">
+        <div class="input-1">
+            <label for="html">Word</label>
+            <input type="text" [(ngModel)]="word" name="word">
+        </div>
+    <div class="input-2">
+        <label for="html">Letter</label>
+        <input type="text" [(ngModel)]="letter"name="letter">
+    </div>
+    
+</form>
+</div>
+<button type="submit" (click)="submit()">Submit</button>
+
+<div><p>Occurance:</p><span>{{count}}</span></div>
